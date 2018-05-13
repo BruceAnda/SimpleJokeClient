@@ -4,11 +4,16 @@
     android:layout_height="match_parent"
     tools:context="cn.zhaoliang5156.simplejokeclient.fragment.TextFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="@string/hello_blank_fragment" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/text_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

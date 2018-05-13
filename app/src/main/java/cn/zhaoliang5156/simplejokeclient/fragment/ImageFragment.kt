@@ -25,7 +25,7 @@ class ImageFragment : Fragment() {
     override fun onResume() {
         super.onResume()
 
-        image.text = "Hello Image"
+       // image.text = "Hello Image"
     }
 
 }// Required empty public constructor
