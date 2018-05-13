@@ -7,8 +7,8 @@ package cn.zhaoliang5156.simplejokeclient.activity.net
  */
 
 // 文本笑话响应模型类
-class Response(
-        var showapi_res_body: ResponseBody,
+class TextResponse(
+        var showapi_res_body: TextResponseBody,
         var showapi_res_code: Int,
         var showapi_res_error: String
 ) {
@@ -18,7 +18,7 @@ class Response(
 }
 
 // 文本笑话响应体模型类
-class ResponseBody(
+class TextResponseBody(
         var totalNum: Int,
         var ret_code: Int,
         var list: ArrayList<TextJoke>
@@ -33,6 +33,24 @@ class TextJoke(
         return "TextJoke(title='$title', content='$content')"
     }
 }
+
+// 文本笑话响应模型类
+class ImageResponse(
+        var showapi_res_body: ImageResponseBody,
+        var showapi_res_code: Int,
+        var showapi_res_error: String
+) {
+    override fun toString(): String {
+        return "Response(showapi_res_body='$showapi_res_body', showapi_res_code=$showapi_res_code, showapi_res_error='$showapi_res_error')"
+    }
+}
+
+// 文本笑话响应体模型类
+class ImageResponseBody(
+        var totalNum: Int,
+        var ret_code: Int,
+        var list: ArrayList<ImageJoke>
+)
 
 // 图片笑话模型类
 class ImageJoke(
