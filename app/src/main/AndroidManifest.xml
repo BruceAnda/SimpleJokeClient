@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.zhaoliang5156.simplejokeclient">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="cn.zhaoliang5156.simplejokeclient.app.App"
         android:allowBackup="true"
