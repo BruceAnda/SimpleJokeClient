@@ -27,7 +27,7 @@ class JokeService {
         var okClient = OkHttpClient.Builder()
                 .connectTimeout(5, TimeUnit.SECONDS)
                 .readTimeout(10, TimeUnit.SECONDS)
-                .cache(Cache(File(App().cacheDir, "cache"), 10240))
+                //.cache(Cache(File(App().cacheDir, "cache"), 10240))
                 .addInterceptor(httpLog)
                 .build()
 
