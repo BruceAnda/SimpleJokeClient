@@ -10,9 +10,7 @@
         android:id="@+id/main_tabs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:tabGravity="center"
         app:tabIndicatorColor="@color/colorAccent"
-        app:tabMode="fixed"
         app:tabSelectedTextColor="@color/colorPrimaryDark"
         app:tabTextColor="@color/colorPrimary" />
 
