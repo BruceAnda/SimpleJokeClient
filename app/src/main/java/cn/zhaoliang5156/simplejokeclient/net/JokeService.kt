@@ -1,6 +1,6 @@
-package cn.zhaoliang5156.simplejokeclient.activity.net
+package cn.zhaoliang5156.simplejokeclient.net
 
-import cn.zhaoliang5156.simplejokeclient.activity.app.App
+import cn.zhaoliang5156.simplejokeclient.app.App
 import okhttp3.Cache
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

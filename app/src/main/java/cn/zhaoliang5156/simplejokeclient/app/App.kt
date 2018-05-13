@@ -1,4 +1,4 @@
-package cn.zhaoliang5156.simplejokeclient.activity.app
+package cn.zhaoliang5156.simplejokeclient.app
 
 import android.app.Application
 

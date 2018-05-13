@@ -1,4 +1,4 @@
-package cn.zhaoliang5156.simplejokeclient.activity.net
+package cn.zhaoliang5156.simplejokeclient.net
 
 import io.reactivex.Observable
 import retrofit2.http.GET
